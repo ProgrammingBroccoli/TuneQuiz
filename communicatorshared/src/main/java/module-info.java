@@ -1,0 +1,3 @@
+module communicatorshared {
+    exports communicatorshared;
+}
