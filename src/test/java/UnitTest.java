@@ -27,7 +27,7 @@ public class UnitTest {
 
 
     @Test
-    void SelectValidPack(){
+    void SelectValidPackTest(){
         String pack = "Efteling";
         tuneQuizApplication.setupWebSocket();
 
@@ -38,7 +38,7 @@ public class UnitTest {
         Assertions.assertEquals(pack, selectedPack);
     }
     @Test
-    void SelectInvalidPack(){
+    void SelectInvalidPackTest(){
         String pack = "invalid";
         tuneQuizApplication.setupWebSocket();
 
@@ -50,7 +50,7 @@ public class UnitTest {
     }
 
     @Test
-    void SetPlayersInLobbyData(){
+    void SetPlayersInLobbyDataTest(){
         ArrayList<Player> players = new ArrayList<>();
         players.add(new Player("Joost"));
         players.add(new Player("Peter"));
@@ -62,14 +62,14 @@ public class UnitTest {
     }
 
     @Test
-    void SetGameState(){
+    void SetGameStateTest(){
         boolean newstate = true;
         lobbyController.setGameState(newstate);
         Assertions.assertEquals(true, newstate);
     }
 
     @Test
-    void SetTunes(){
+    void SetTunesTest(){
         ArrayList<Tune> tunes = new ArrayList<Tune>(){{
             add(new Tune("Villa volta",
                     "C:\\Users\\Ruben\\Documents\\SynologyDrive\\Drive\\Fontys\\-=S3=-\\BIG IDEA\\TuneQuiz\\src\\main\\resources\\tunes\\villavolta.mp3",

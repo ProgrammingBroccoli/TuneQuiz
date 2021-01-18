@@ -20,7 +20,7 @@ public class IntergrationTest {
         tuneQuizApplication = new TuneQuizApplication();
     }
     @Test
-    void LoginPlayerWithWrongUsername() throws IOException {
+    void LoginPlayerWithWrongUsernameTest() throws IOException {
         //FR2 TESTCASE 4
         String username = "Jan";
         String password = "Test";
@@ -30,7 +30,7 @@ public class IntergrationTest {
         Assertions.assertEquals(false, result);
     }
     @Test
-    void LoginPlayerWithWrongPassword() throws IOException {
+    void LoginPlayerWithWrongPasswordTest() throws IOException {
         //FR2 TESTCASE 5
         String username = "Ruben";
         String password = "Wrong";
@@ -40,7 +40,7 @@ public class IntergrationTest {
         Assertions.assertEquals(false, result);
     }
     @Test
-    void LoginPlayerWithValidCredentials() throws IOException {
+    void LoginPlayerWithValidCredentialsTest() throws IOException {
         //FR2 TESTCASE 6
         String username = "Ruben";
         String password = "Test";
