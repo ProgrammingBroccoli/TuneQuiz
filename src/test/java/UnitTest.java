@@ -4,8 +4,6 @@ import Data.LobbyData;
 import GUI.TuneQuizApplication;
 import Models.Player;
 import Models.Tune;
-import javafx.stage.Stage;
-import javafx.stage.Window;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
@@ -14,13 +12,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Unittests {
+public class UnitTest {
     AccountController accountController;
     LobbyController lobbyController;
     LobbyData lobbyData;
     TuneQuizApplication tuneQuizApplication;
 
-    public Unittests() throws IOException {
+    public UnitTest() throws IOException {
         accountController = new AccountController();
         lobbyController = new LobbyController(accountController);
         lobbyData = LobbyData.getInstance();
