@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TuneQuiz.iml" filepath="$PROJECT_DIR$/TuneQuiz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/communicatorclient/communicatorclient.iml" filepath="$PROJECT_DIR$/communicatorclient/communicatorclient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/communicatorserver/communicatorserver.iml" filepath="$PROJECT_DIR$/communicatorserver/communicatorserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/communicatorshared/communicatorshared.iml" filepath="$PROJECT_DIR$/communicatorshared/communicatorshared.iml" />
     </modules>
   </component>
